@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.links{
+    display: inline;
+    border-right: 1px solid #bbb;
+    text-decoration: none;
+}
+.links:last-child {
+  border-right: none;
+}
+.links a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.links a:hover {
+  text-decoration: none;
+  background-color: #111;
+  color: hotpink;
+}
+.img_2{
+    height: 300px;
+    width: 285px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.title{
+    color: firebrick;
+}
+#image-quote{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+#quote{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+#myCarousel{
+    background-color: aliceblue;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
